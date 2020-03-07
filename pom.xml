@@ -29,6 +29,12 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
+        <!--引入jdbc-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
         <!--引入jquery-->
         <dependency>
             <groupId>org.webjars.bower</groupId>
@@ -50,7 +56,18 @@
             <version>1.2.66</version>
         </dependency>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+        </dependency>
 
+        <!-- mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.1</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
