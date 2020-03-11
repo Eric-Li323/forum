@@ -11,6 +11,11 @@
 [Github OAuth](https://developer.github.com/apps/building-oauth-apps/)  
 [OAuth参数](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)  
 [okHttp](https://square.github.io/okhttp/)  
+[flyway--sql脚本管理，类似git](https://flywaydb.org/getstarted/firststeps/maven#migrating-the-database)  
+[布局文档](https://v3.bootcss.com/css/#grid)  
+[Lombok配置--自动setter,getter，toString等方法](https://www.jianshu.com/p/2543c71a8e45)  
+[Lombok官网](https://projectlombok.org/features/all)  
+[thymeleaf](https://www.thymeleaf.org/documentation.html)  
 
 ## 工具  
   
@@ -29,4 +34,7 @@ CREATE TABLE `user`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
+```
+```bash
+mvn flyway:migrate
 ```
